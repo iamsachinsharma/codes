@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "stdlib.h": "c",
+        "ostream": "cpp"
+    },
+    "java.project.sourcePaths": [
+        "java",
+        ""
+    ],
+    "C_Cpp.errorSquiggles": "Disabled",
+    "cmake.sourceDirectory": "${workspaceFolder}/c or c++"
+}
