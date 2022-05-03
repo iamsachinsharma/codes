@@ -5,18 +5,17 @@ using namespace std;
 int main()
 {
     int n;
-    cout<<"Enter the value of n"<<endl;
-    cin>>n;
+    cout << "Enter the value of n" << endl;
+    cin >> n;
 
     cout << "printing count from 1 to n" << endl;
-    for (int i = 1; i <=n; i++)
+    for (int i = 1; i <= n; i++)
     {
-        cout<< i<< endl;
+        cout << i << endl;
     }
-    
+
     return 0;
 }
-
 
 // Your  C++ Program to find prime no. with for loop
 #include <iostream>
@@ -34,15 +33,37 @@ int main()
             cout << "Not prime" << endl;
             isPrime = 0;
             break;
-        }  
+        }
     }
 
-if (isPrime == 0)
+    if (isPrime == 0)
+    {
+        cout << "Not Prime" << endl;
+    }
+    else
+    {
+        cout << "Is Prime" << endl;
+    }
+    return 0;
+}
+
+// Your  C++ Program for fibonacci series
+
+#include <iostream>
+using namespace std;
+int main()
 {
-    cout<<"Not Prime"<<endl;
-}
-else{
-    cout<<"Is Prime"<<endl;
-}
+    int n = 10;
+    int a = 0;
+    int b = 1;
+    cout << a << " " << b << " ";
+    for (int i = 1; i <= n; i++)
+    {
+        int nextnumber = a + b;
+        cout << nextnumber << " ";
+        a = b;
+        b = nextnumber;
+    }
+
     return 0;
 }
