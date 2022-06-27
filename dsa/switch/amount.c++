@@ -9,7 +9,6 @@ int main()
     n1 = n20 = n50 = n100 = 0;
     cout << "Please Enter Your total Amount to find the notes : ";
     cin >> amount;
-   
     switch (amount >= 100)
     {
     case 1:
