@@ -1,6 +1,13 @@
 {
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch coderunner",
+            "request": "launch",
+            "mainClass": "java.coderunner",
+            "projectName": "codes_e9d42d4d"
+        },
+        {
             "name": "C/C++: cpp.exe build and debug active file",
             "type": "cppdbg",
             "request": "launch",
